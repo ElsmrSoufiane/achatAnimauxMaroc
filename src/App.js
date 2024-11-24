@@ -124,7 +124,7 @@ function Ans(props){
     }else{
       return true
     }
-  }))} ,[props.animal])
+  }))} ,[props.animal,props.categorie,props.ville,props.cartier])
   return (<motion.div  initial={{ opacity: 0 ,y: -10 }}
     animate={{ opacity: 1 ,y:0 }}
     transition={{ type: "spring",duration:1,stifness:400    }}>
