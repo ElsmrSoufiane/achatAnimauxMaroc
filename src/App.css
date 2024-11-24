@@ -1,0 +1,112 @@
+@media (max-width: 840px) {
+
+  .w{
+    width:80% ;
+  }
+  .filter,.oo {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+
+  }
+  
+}
+.w{
+  width: 30%;
+}
+.oo{
+ display: flex;
+ justify-content: space-evenly;
+}
+:root {
+  --arrow-bg: rgba(255, 255, 255, 0.3);
+  --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
+  --option-bg: white;
+  --select-bg: rgba(255, 255, 255, 0.2);
+}
+* {
+  box-sizing: border-box;
+}
+.botona{
+  padding: 4px 20px ;
+  border-radius: 5px;
+  background-color: #ff8a1d;
+  margin-bottom: 4px;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 24px;
+  transition-duration: 0.3s;
+  
+}
+.botona:hover{
+  color:#ff8a1d ;
+  border: 1px #ff8a1d solid;
+  background-color: transparent;
+}
+
+.App {
+  text-align: center;
+}
+select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20rem;
+  padding: 1rem 4rem 1rem 1rem;
+ background-color: #68a4ff;
+  color: white;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* <option> colors */
+  option {
+    color: inherit;
+    background-color: #68a4ff;
+  }
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
