@@ -141,9 +141,10 @@ function Ans(props){
        <center><p>{e.description}</p></center> 
        <center><button className='botona' onClick={()=>props.setId(e.id)}>voire</button></center>
       </div>
+      
       })}
     </div>
-
+{console.log(12)}
   </div>
   </motion.div>)
 }
