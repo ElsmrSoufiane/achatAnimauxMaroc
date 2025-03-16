@@ -139,7 +139,7 @@ function Ans(props){
         </div>
         <center><h3 style={{color:"#0355cc"}}>{e.prix} dhs</h3></center>
        <center><p>{e.description}</p></center> 
-       <center><button className='botona' onClick={()=>props.setId(e.id)}>voire</button></center>
+       <center><a href="#" ><button className='botona' onClick={()=>props.setId(e.id)}>voire</button></a></center>
       </div>
       
       })}
